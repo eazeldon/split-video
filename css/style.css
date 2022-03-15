@@ -1,0 +1,59 @@
+body {
+   background-color: #1f1f1f;
+}
+
+
+.player {
+   position: absolute;
+}
+
+.iframe-video {
+   text-align: center;
+   display: inline-block;
+   position: relative;
+   overflow: hidden !important;
+   width: 1227px;
+   height: 700px;
+}
+
+.wrapper {
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 30px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+
+div#controls_bar {
+   border-radius: 8px;
+   padding: 10px;
+
+}
+
+button {
+   border-radius: 8px;  
+   color: white;
+   background-color: #9acd3270;
+   font-size: 30px;
+}
+@media screen and (max-width: 368px) { 
+
+   .video_frame {
+     
+      width: 20%;
+      height: 10%;
+     
+  }
+  .wrapper {
+   margin-top:  30%;
+   width:  20%;
+   margin-right: 5px;
+   margin-left: 5px;
+  
+   
+}
+.text-center {
+   text-align: center;
+}
+}
