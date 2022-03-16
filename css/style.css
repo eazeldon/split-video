@@ -1,5 +1,6 @@
 body {
    background-color: #1f1f1f;
+
 }
 
 
@@ -12,8 +13,12 @@ body {
    display: inline-block;
    position: relative;
    overflow: hidden !important;
-   width: 1227px;
-   height: 700px;
+   width: 650px;
+   height: 380px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
 }
 
 .wrapper {
@@ -59,6 +64,10 @@ button {
 .iframe-video {
    width: 400px;
    height: 300px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
 
 }
 }
