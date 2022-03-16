@@ -13,8 +13,8 @@ body {
    display: inline-block;
    position: relative;
    overflow: hidden !important;
-   width: 650px;
-   height: 380px;
+   width: 638px;
+   height: 400px;
    padding-left: 10px;
    padding-right: 10px;
    padding-top: 5px;
@@ -33,16 +33,32 @@ body {
 
 div#controls_bar {
    border-radius: 8px;
-   padding: 10px;
+   padding: 8px;
 
 }
+
+/* .btn {
+   display: inline-block;
+   margin-top: 5px;
+   margin-right: 6px;
+   color: white;
+   border-radius: 8px;
+   border-bottom-color: white;
+   border-top-color: wheat;
+   border-right-color: wheat;
+   border-left-color: wheat;;
+   background-color:#0dcaf01f;
+}*/
 
 button {
    border-radius: 8px;  
    color: white;
    background-color: #9acd3270;
-   font-size: 18px;
+   font-size: 30px;
+   
 }
+
+
 @media screen and (max-width: 368px) { 
 
    .video_frame {
@@ -59,12 +75,12 @@ button {
   
    
 }
-.text-center {
+/* .text-center {
    text-align: center;
-}
+}*/
 .iframe-video {
-   width: 400px;
-   height: 285px;
+   width: 500px;
+   height: 360px;
    padding-left: 10px;
    padding-right: 10px;
    padding-top: 5px;

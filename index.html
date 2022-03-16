@@ -41,7 +41,7 @@
 
          <div id="video1" class="player text-center">
 
-            <video id="video-sanbox" width="650" height="380" controls loop autoplay>
+            <video id="video-sanbox" width="635" height="400" controls loop autoplay>
                <source src="assets/video/video-project 1.mp4">
             </video>
 
@@ -49,9 +49,10 @@
       </div>
 
 
-      <!----<div id="controls_bar" class="text-center">
+      <div id="controls_bar" class="text-center">
          <button id="playpausebtn" onclick="playPause(this,'video-sanbox')">Pause</button>
-      </div>-->
+
+      </div>
 
 
    </div>
@@ -165,25 +166,6 @@
          moveRightVideo();
 
       });
-
-
-      //
-
-   </script>
-
-
-   <!-----Play/pause-------->
-   <script>
-      function playPause(btn, vid) {
-         var vid = document.getElementById(vid);
-         if (vid.paused) {
-            vid.play();
-            btn.innerHTML = "Pause";
-         } else {
-            vid.pause();
-            btn.innerHTML = "Play";
-         }
-      }
 
    </script>
 
